@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.PBDVProject" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#0066CC</item>
+        <item name="colorPrimaryContainer">#002966</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="android:statusBarColor">?attr/colorPrimary</item>
+    </style>
+</resources>

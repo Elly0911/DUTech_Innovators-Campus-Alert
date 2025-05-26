@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">Campus Alert</string>
+    <string name="login1">Login</string>
+    <string name="email1">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="click_to_login">Click to login</string>
+    <string name="click_to_register">Click to register</string>
+    <string name="logout">Logout</string>
+    <string name="name">Name</string>
+    <string name="already_registered_login_here">Already Registered? Login Here</string>
+    <string name="new_here_create_account">New Here? Create Account</string>
+    <string name="select_role">Select Role</string>
+    <string name="enter_location">Enter Location</string>
+    <string name="enter_description">Enter Description</string>
+    <string name="submit_incident_report">Submit Incident Report</string>
+    <string name="you_re_safe">You\'re Safe!</string>
+    <string name="phone_icon">Phone icon</string>
+    <string name="emergency_ncontacts">Emergency\nContacts</string>
+    <string name="book_icon">Book icon</string>
+    <string name="safety_ntips">Safety\nTips</string>
+    <string name="no_current_threats_reported">No current threats reported</string>
+    <string name="alerts_icon">Alerts icon</string>
+    <string name="report_nincident">Report\nIncident</string>
+    <string name="report_icon">Report icon</string>
+    <string name="panic_nbutton">PANIC\nBUTTON</string>
+    <string name="send_alert">Send Alert</string>
+    <string name="view_reports">View Reports</string>
+    <string name="role">Role</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="view_nalerts">View\nAlerts</string>
+    <string name="no_active_panic_alerts">No active panic alerts</string>
+    <string name="view_panic_alerts">View Panic Alerts</string>
+    />
+    <string-array name="user_roles">
+        <item>Student</item>
+        <item>Staff</item>
+        <item>Security</item>
+    </string-array>
+    <string-array name="incident_types">
+        <item>Assault</item>
+        <item>Theft</item>
+        <item>Medical Emergency</item>
+        <item>Suspicious Activity</item>
+        <item>Other</item>
+    </string-array>
+    <string name="add_contact">Add Contact</string>
+    <string name="phone">Phone</string>
+    <string name="relationship">Relationship</string>
+    <string name="save_contact">Save Contact</string>
+    <string name="update_contact">Update Contact</string>
+    <string name="delete_contact">Delete Contact</string>
+    <string name="no_resolved_alerts_found">No resolved alerts found</string>
+    <string name="campus_alert_logo">Campus Alert Logo</string>
+    <string name="campus_alert">CAMPUS ALERT</string>
+    <string-array name="alert_categories">
+        <item>All</item>
+        <item>Panic Alert</item>
+    </string-array>
+
+    <string name="logo_description">Campus Alert Logo</string>
+    <string name="campus_title">CAMPUS</string>
+    <string name="alert_title">ALERT</string>
+    <string name="splash_tagline">Stay Safe, Stay Informed</string>
+    <string name="email">Email</string>
+    <string name="update_your_profile">Update Your Profile</string>
+    <string name="full_name">Full Name</string>
+    <string name="password_management">Password Management</string>
+    <string name="current_password">Current Password</string>
+    <string name="new_password">New Password</string>
+    <string name="profile_picture">Profile picture</string>
+
+
+    <string name="app_version">Version 1.0.0</string>
+    <string name="copyright_text">© 2025 Campus Alert System</string>
+    <string name="search_alerts">Search alerts</string>
+    <string name="filter_alerts">Filter Alerts</string>
+    <string name="filter_by">Filter by</string>
+    <string name="select_field">Select field</string>
+    <string name="enter_value">Enter value</string>
+    <string name="apply">APPLY</string>
+    <string name="clear">CLEAR</string>
+    <string name="start_date">Start date</string>
+    <string name="start_time_optional">Start time (optional)</string>
+    <string name="end_time_optional">End time (optional)</string>
+    <string name="view_resolved_items">View Resolved Items</string>
+
+    <string name="select_alert_type">Select alert type</string>
+    <string name="refresh">refresh</string>
+    <string-array name="alert_types">
+        <item>Select an alert type</item>
+        <item>Fire</item>
+        <item>Lockdown</item>
+        <item>Bomb Threat</item>
+        <item>Electrical Fault</item>
+        <item>Power Failure</item>
+        <item>Flooding</item>
+        <item>Other (specify below)</item>
+    </string-array>
+
+</resources>

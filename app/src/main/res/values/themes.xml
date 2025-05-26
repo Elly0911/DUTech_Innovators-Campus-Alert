@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base Theme -->
+    <style name="Base.Theme.PBDVProject" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#0066CC</item>
+        <item name="colorPrimaryContainer">#004799</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="android:statusBarColor">?attr/colorPrimary</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="toolbarStyle">@style/Widget.Material3.Toolbar</item>
+    </style>
+
+    <!-- Main App Theme -->
+    <style name="Theme.PBDVProject" parent="Base.Theme.PBDVProject" />
+
+    <!-- Splash Theme -->
+    <style name="SplashTheme" parent="Theme.PBDVProject">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:statusBarColor">@color/splash_background</item>
+        <item name="android:navigationBarColor">@color/splash_background</item>
+    </style>
+</resources>
