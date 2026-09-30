@@ -55,10 +55,10 @@ The app follows a role-based architecture:
 
 ## Testing
 
-- **Unit tests** – Form validation, role redirection logic.
-- **Integration tests** – Firebase Auth, Firestore, Storage, and OneSignal workflows.
-- **System tests** – End-to-end scenarios across all user roles.
-- **Performance** – Panic alerts delivered in under 3 seconds; dashboards load in under 3 seconds.
+- **Unit tests** - Form validation, role redirection logic.
+- **Integration tests** - Firebase Auth, Firestore, Storage, and OneSignal workflows.
+- **System tests** - End-to-end scenarios across all user roles.
+- **Performance** - Panic alerts delivered in under 3 seconds; dashboards load in under 3 seconds.
 - **Security** – Firestore rules and Storage rules verified to block unauthorized access.
 
 ## Getting Started
