@@ -72,4 +72,4 @@ The app follows a role-based architecture:
 
 ## Notes
 
-This project was developed as part of a university module (PBDV Project 2) to demonstrate native Android development, cloud backend integration, real-time notifications, and role-based access control.
+This project was developed as part of a university module (PBDV301 Project 2) to demonstrate native Android development, cloud backend integration, real-time notifications, and role-based access control.
