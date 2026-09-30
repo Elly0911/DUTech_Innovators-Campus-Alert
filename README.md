@@ -7,12 +7,12 @@ Campus Alert is an Android application built to improve campus safety by providi
 ## Features
 
 ### For Students & Staff
-- **Panic Alert System** – Trigger an emergency alert that instantly sends your live GPS location and emergency contacts to campus security.
-- **Incident Reporting** – Submit detailed reports (theft, harassment, medical emergencies, etc.) with optional photo/video attachments.
-- **View Alerts** – Receive and browse campus-wide safety announcements with real-time search and filtering.
-- **Safety Tips** – Access categorized emergency procedures (fire, lockdown, bomb threat, medical, etc.).
-- **Emergency Contacts** – Add, edit, and manage personal emergency contacts that get attached to panic alerts.
-- **Profile Management** – Update personal info and profile photo with built-in image cropping.
+- **Panic Alert System** - Trigger an emergency alert that instantly sends your live GPS location and emergency contacts to campus security.
+- **Incident Reporting** - Submit detailed reports (theft, harassment, medical emergencies, etc.) with optional photo/video attachments.
+- **View Alerts** - Receive and browse campus-wide safety announcements with real-time search and filtering.
+- **Safety Tips** - Access categorized emergency procedures (fire, lockdown, bomb threat, medical, etc.).
+- **Emergency Contacts** - Add, edit, and manage personal emergency contacts that get attached to panic alerts.
+- **Profile Management** - Update personal info and profile photo with built-in image cropping.
 
 ### For Security Personnel
 - Receive panic alerts and incident reports in real time.
@@ -48,10 +48,10 @@ Campus Alert is an Android application built to improve campus safety by providi
 ## Architecture
 
 The app follows a role-based architecture:
-1. **Splash Activity** – Checks authentication state and routes users based on their Firestore-stored role.
-2. **Authentication** – Firebase Auth handles login/registration; roles are assigned at sign-up.
-3. **Dashboards** – Each role gets a tailored dashboard (Student/Staff, Security, Admin).
-4. **Core Modules** – Panic alerts, incident reports, alerts viewing, safety tips, emergency contacts, profile management, and admin analytics all communicate with Firebase services and OneSignal for notifications.
+1. **Splash Activity** - Checks authentication state and routes users based on their Firestore-stored role.
+2. **Authentication** - Firebase Auth handles login/registration; roles are assigned at sign-up.
+3. **Dashboards** - Each role gets a tailored dashboard (Student/Staff, Security, Admin).
+4. **Core Modules** - Panic alerts, incident reports, alerts viewing, safety tips, emergency contacts, profile management, and admin analytics all communicate with Firebase services and OneSignal for notifications.
 
 ## Testing
 
@@ -59,7 +59,7 @@ The app follows a role-based architecture:
 - **Integration tests** - Firebase Auth, Firestore, Storage, and OneSignal workflows.
 - **System tests** - End-to-end scenarios across all user roles.
 - **Performance** - Panic alerts delivered in under 3 seconds; dashboards load in under 3 seconds.
-- **Security** – Firestore rules and Storage rules verified to block unauthorized access.
+- **Security** - Firestore rules and Storage rules verified to block unauthorized access.
 
 ## Getting Started
 
